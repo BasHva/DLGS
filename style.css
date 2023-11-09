@@ -72,21 +72,22 @@ section {
     border-radius: 10px;
     font-size: 19px;
     font-weight: bold;
-    cursor: pointer;
 }
 
+.product-tekst {
+    color: white;
+}
 
 .slideshow {
     display: flex;
     overflow: hidden;
     max-width: 100%;
     max-height: 300px;
-    margin: 0 auto;
 }
 
 .slideshow img {
     max-width: 100%;
-    animation: slide 10s infinite;
+    animation: slide 8s infinite;
 }
 
 @keyframes slide {
@@ -107,48 +108,13 @@ section {
     }
 }
 
-.product-card {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    margin: 20px;
-    text-align: center;
-}
-
-.product-card img {
-    max-width: 100px;
-    max-height: 100px;
-    margin-bottom: 10px;
-}
-
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-details a {
-    color: #7b5d49;
-    text-decoration: none;
-}
-
-.contact-details a:focus {
-    color: #ff8c00;
-    text-decoration: underline;
-}
-
 .contact-form{
     text-align: left;
-    width: 100%;
-    max-width: 400px;
     margin: 20px 0;
 }
 
-.contact-form2{
-    text-align: center;
-    font-size: 18px;
-    color: #664a3d;
+.contact-form2 {
+font-size: 18px;
 }
 
 .contact-form h3 {
@@ -182,9 +148,7 @@ section {
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: bold;
-    cursor: pointer;    
 }
-
 
 .product-category {
     display: flex;
@@ -225,12 +189,6 @@ footer {
     text-align: center;
 }
 
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 .footer-contact,
 .footer-social,
 .footer-logo {
@@ -243,21 +201,9 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-contact p,
-.footer-social ul {
-    list-style: none;
-    padding: 0;
-}
-
 .footer-social ul li {
     display: inline;
     margin-right: 10px;
-}
-
-.footer-social ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
 }
 
 .footer-logo img {
@@ -270,21 +216,10 @@ footer {
     height: auto;
 }
 
-
 .footer-bottom {
     text-align: center;
     padding-top: 20px; 
     font-size: 13px;
-}
-
-.product-container .hidden-paragraph {
-    display: none;
-    color: #7b5d49;
-}
-
-.product-container:active .hidden-paragraph {
-    display: block;
-    color: #000;
 }
 
 h2 {
@@ -302,12 +237,6 @@ h2 {
     margin-bottom: 10px;
 }
 
-
-.container {
-    position: relative;
-    width: 100%;
-}
-
 .image {
     display: block;
     width: 100%;
@@ -315,8 +244,9 @@ h2 {
 }
 
 .image1 {
+    margin: 5px;
     display: inline-block;
-    width: 25%;
+    width: 30%;
     height: auto;
 }
 
@@ -353,12 +283,6 @@ h2 {
     color: #7b5d49; 
 }
 
-.info-text p {
-    margin: 10px 0;
-    color: #7b5d49;
-}
-
-
 .hidden-paragraph {
     color: white;
     font-size: 18px;
@@ -384,10 +308,6 @@ h2 {
     background-color: #7b5d49;
     overflow: hidden;
     transition: max-height 0.3s;
-}
-
-.menu li {
-    margin: 0 9px;
 }
 
 .menu a {
@@ -422,12 +342,6 @@ h2 {
     }
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 #menu-toggle {
     display: none;
 }
@@ -439,7 +353,6 @@ h2 {
     display: block;
 }
 
-
 #menu-toggle:checked ~ .menu-icon {
     display: none;
 }
@@ -450,6 +363,16 @@ h2 {
     margin: -11px;
     padding: 13px;
     margin-top: 10px;
+}
+
+.begin-contact {
+    color:#664a3d;
+    font-size: 18px;
+}
+
+.info-text p {
+    margin: 10px 0;
+    color: #7b5d49;
 }
 
 .item {
@@ -488,7 +411,6 @@ a {
 
 .product-button {
     display: block; 
-    margin: 0 auto; 
     padding: 15px;
     margin: 25px;
     background-color: #0077cc;
@@ -496,12 +418,10 @@ a {
     border-radius: 30px;
     font-size: 19px;
     font-weight: bold;
-    cursor: pointer;
 }
 
 .waarom-button {
     display: block; 
-    margin: 0 auto; 
     padding: 10px;
     margin: 15px;
     background-color: #0a9396;
@@ -509,11 +429,22 @@ a {
     border-radius: 10px;
     font-size: 19px;
     font-weight: bold;
-    cursor: pointer;
 }
 
-.begin-contact {
-    text-decoration: none; 
-    color: #664a3d; 
-    font-size: 19px;
+.image-container {
+    display: flex;
 }
+
+.image3 {
+    width: 50%;
+    height: auto;
+}
+
+.pijltjeproduct {
+    margin: 4px;
+    display: inline-block;
+    width: 25%;
+    height: auto;
+}
+
+
